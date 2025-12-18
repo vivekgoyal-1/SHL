@@ -9,7 +9,6 @@ function App() {
   const [error, setError] = useState('');
   const [apiStatus, setApiStatus] = useState(null);
 
-  // IMPORTANT: Replace this with your actual deployed API URL
   const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 
   // Check API health on mount
@@ -75,9 +74,9 @@ function App() {
   };
 
   const sampleQueries = [
-    "I am hiring for Java developers who can also collaborate effectively with my business teams.",
-    "Looking to hire mid-level professionals who are proficient in Python, SQL and JavaScript.",
-    "Need cognitive and personality tests for analyst position screening."
+    "I am hiring for Java developers .",
+    "Looking to hire in Python, SQL and JavaScript."
+    
   ];
 
   const loadSampleQuery = (sampleQuery) => {
