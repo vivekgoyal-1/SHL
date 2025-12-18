@@ -11,6 +11,7 @@ pydantic==2.5.0
 google-generativeai==0.3.1
 chromadb==0.4.18
 
-# Force CPU-only torch
-torch==2.1.2+cpu ; platform_system == "Linux"
+# ML stack (PINNED & COMPATIBLE)
+torch==2.1.2+cpu
+transformers==4.35.2
 sentence-transformers==2.2.2
