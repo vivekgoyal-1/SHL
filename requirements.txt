@@ -14,4 +14,5 @@ chromadb==0.4.18
 # ML stack (PINNED & COMPATIBLE)
 torch==2.1.2+cpu
 transformers==4.35.2
+huggingface_hub==0.17.3
 sentence-transformers==2.2.2
