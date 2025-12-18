@@ -1,11 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 fastapi==0.104.1
 uvicorn==0.24.0
 beautifulsoup4==4.12.2
 requests==2.31.0
 pandas==2.1.3
-sentence-transformers==2.2.2
 numpy==1.26.2
 python-dotenv==1.0.0
 pydantic==2.5.0
 google-generativeai==0.3.1
 chromadb==0.4.18
+
+# Force CPU-only torch
+torch==2.1.2+cpu ; platform_system == "Linux"
+sentence-transformers==2.2.2
